@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">EnglishToHindiDictionary</string>
+    <string name="title_activity_bottom">BottomActivity</string>
+    <string name="title_home">Favourites</string>
+    <string name="title_dashboard">Words</string>
+    <string name="title_notifications">Situations</string>
+</resources>

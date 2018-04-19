@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:padding="15dp"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+        <TextView
+            android:background="@color/white"
+            android:typeface="serif"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:id="@+id/titleWord"
+            android:text="MyName"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/titleSerial"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/titleMeaning"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/titleAntonyms"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/titleExample"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/titleAdjective"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
